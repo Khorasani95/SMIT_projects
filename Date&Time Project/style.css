@@ -1,0 +1,18 @@
+.header{
+  text-align: center;
+  background-color: aqua;
+  margin-bottom: 470px;
+}
+.main{
+  text-align: center;
+  background-color: blue;
+}
+.footer{
+  text-align: center;
+  background-color: black;
+  color: aliceblue;
+
+}
+.div{
+  height: 50px;
+}

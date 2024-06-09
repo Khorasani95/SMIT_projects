@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JS-CH#14-20</title>
+  <!-- CSS LINK -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" />
+  <!-- BOOTSTRAP LINK -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid bg-primary">
+      <a class="navbar-brand ps-5" href="#">
+        <h3 class="p-2 text-white">Assignments Chapter#15-20</h3>
+      </a>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <h1 class="mt-5 text-center">
+      Chapter # 15-20 | Arrays: It's Methods & Loops |
+    </h1>
+    <hr />
+
+    <div class="row">
+      <div class="col-md-6 border mt-4">
+        <h3 class="text-center">Input</h3>
+        <input type="text" class="form-control mb-3" placeholder="Type Your City Name" id="inputText" />
+      </div>
+      <div class="col-md-6 border mt-4 bg-primary">
+        <h3 class="text-center">Original String</h3>
+        <p class="text-center" id="textInBlue">
+          I love My Country Pakistan. <br>
+          I like My City Faisalabad. <br>
+          I love My Homeland.
+        </p>
+
+        <!-- <input
+            type="text"
+            class="form-control mb-3"
+            placeholder="Fourth Input"
+          /> -->
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 border mt-4 text-center">
+        <h3 class="text-center">Buttons</h3>
+        <button class="bg-danger border text-white" onclick="toLower()" id="lower">
+          Convert to Lower Case
+        </button>
+        <button class="bg-danger border text-white" onclick="toUpper()" id="Upper">
+          Convert to Upper Case
+        </button><br>
+        <button class="bg-danger border text-white me-5" onclick="capatalize()" id="capataliz">
+          Convert to Capatalize
+        </button>
+        <button class="bg-danger border text-white me-5" onclick="betterFormating()" id="betterFormating">
+          Better Formating
+        </button>
+        <button class="bg-danger border text-white ps-2" onclick="printCities()" id="printCities">
+          Print Cities
+        </button><br>
+        <button class="bg-danger border text-white ms-4" onclick="addInList()" id="CheckInList">
+          Add Your City In List
+        </button><br>
+        <button class="bg-danger border text-white" onclick="checkInList()" id="checkInList">
+          Check Your City In List
+        </button>
+        <button class="bg-danger border text-white" onclick="findWord()" id="findWord">
+          Find This word
+        </button><br>
+        <button class="bg-danger border text-white" onclick="repWord()" id="repWord">
+          Replace This word
+        </button>
+      </div>
+
+      <div class="col-md-6 border mt-4 text-center">
+        <h3 class="text-center">Output / Result</h3>
+        <p class="underOutput py-5" id="Output"></p>
+        <!-- <input
+            type="text"
+            class="form-control mb-3"
+            placeholder="Fourth Input"
+            
+          /> -->
+        <button class=" btn btn-danger" onclick="clearSt()">Clear Statement</button>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="script.js"></script>
+
+</html>

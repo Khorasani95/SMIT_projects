@@ -1,0 +1,46 @@
+.logo {
+  background-color: #ffffff;
+  width: 40%;
+  display: inline-block;
+  text-align: center;
+}
+th,
+td {
+  border: 1px solid silver;
+  /* background-color: aqua; */
+}
+.dark {
+  color: #212429;
+  /* align-items:self-end; */
+  background-color: #ffffff;
+  width: 40%;
+  display: inline-block;
+  align-content: end;
+  text-align: right;
+  /* text-decoration: none; */
+  /* background-color: blueviolet; */
+}
+.heading {
+  text-align: center;
+  background-color: #f5f5f5;
+  /* margin-TOP: 10%;  */
+}
+.tm {
+  width: 80%;
+  margin: auto;
+  /* text-align: center; */
+  border: 2px black;
+  background-color: #f5f5f5;
+}
+button {
+  background-color: black;
+  border-radius: 5px;
+}
+.container {
+  background-color: #f5f5f5;
+}
+
+.btn-dark {
+  color: white;
+  text-decoration: none;
+}

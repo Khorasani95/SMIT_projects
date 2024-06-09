@@ -1,0 +1,14 @@
+body h1 {
+  background-color: black;
+  color: red;
+  opacity: 0.4;
+}
+body h2 {
+  background-color: black;
+  color: yellow;
+}
+
+body p {
+  background-color: black;
+  color: pink;
+}
